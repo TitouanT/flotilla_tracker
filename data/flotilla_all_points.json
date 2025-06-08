@@ -43113,5 +43113,63 @@
             },
             "speed": 2.5194645
         }
+    ],
+    "1749414165": [
+        {
+            "__epoch__": 1749414165,
+            "__injested__": 1749415164.7374914,
+            "__source__": "source_2",
+            "dateTime": "2025-06-08T20:22:45.000Z",
+            "fitnessPointData": {
+                "activityType": null,
+                "cadenceCyclesPerMin": null,
+                "distanceMeters": 84064.34424834445,
+                "durationSecs": 37200,
+                "elevation": 6.4026947,
+                "elevationGainMeters": 14.191593399999999,
+                "elevationSource": null,
+                "eventTypes": null,
+                "heartRateBeatsPerMin": null,
+                "pointStatus": null,
+                "powerWatts": null,
+                "speedMetersPerSec": null,
+                "totalDistanceMeters": 84064.34424834445,
+                "totalDurationSecs": 37200
+            },
+            "position": {
+                "lat": 32.00763702392578,
+                "lon": 32.092459201812744
+            },
+            "speed": 2.5194645
+        }
+    ],
+    "1749414765": [
+        {
+            "__epoch__": 1749414765,
+            "__injested__": 1749415164.7374914,
+            "__source__": "source_2",
+            "dateTime": "2025-06-08T20:32:45.000Z",
+            "fitnessPointData": {
+                "activityType": null,
+                "cadenceCyclesPerMin": null,
+                "distanceMeters": 85533.92391751491,
+                "durationSecs": 37800,
+                "elevation": 4.3742046,
+                "elevationGainMeters": 14.191593399999999,
+                "elevationSource": null,
+                "eventTypes": null,
+                "heartRateBeatsPerMin": null,
+                "pointStatus": null,
+                "powerWatts": null,
+                "speedMetersPerSec": null,
+                "totalDistanceMeters": 85533.92391751491,
+                "totalDurationSecs": 37800
+            },
+            "position": {
+                "lat": 32.0046865940094,
+                "lon": 32.107651233673096
+            },
+            "speed": 2.5194645
+        }
     ]
 }
