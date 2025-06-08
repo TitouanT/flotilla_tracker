@@ -24,7 +24,7 @@ with open(script_dir / 'cache' / 'latest_flotilla.json', 'r') as f:
     except Exception as e:
         data = {}
         f.seek(0)
-        print(f"error fetching fresh data from source 1: {e} <<<{f.read()}>>>")
+        print(f"error fetching fresh data from source 1: {e} <<<{f.read()[:80]}>>>")
 
 subprocess.run(script_dir / "helper" / "get_flotilla_source_2.sh", capture_output=True)
 with open(script_dir / 'cache' / 'latest_flotilla_source_2.json', 'r') as f:
@@ -33,7 +33,7 @@ with open(script_dir / 'cache' / 'latest_flotilla_source_2.json', 'r') as f:
     except Exception as e:
         data_2 = {}
         f.seek(0)
-        print(f"error fetching fresh data from source 2: {e} <<<{f.read()}>>>")
+        print(f"error fetching fresh data from source 2: {e} <<<{f.read()[:80]}>>>")
 
 archive_file = script_dir / 'cache' / 'flotilla_all_points.json'
 if archive_file.exists():
