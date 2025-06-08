@@ -11,6 +11,6 @@ then
 fi
 echo fetching
 
-#curl 'https://flotilla-orpin.vercel.app/api/vessel?start=2025-05-31&mmsis=232057367' --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: */*' -H 'Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate, br, zstd' -H 'Referer: https://flotilla-orpin.vercel.app/' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'Priority: u=4' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' > "${full_path_json}"
-
 curl 'https://flotilla-orpin.vercel.app/api/vessel?start=2025-05-31&mmsis=232057367' --compressed -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0' -H 'Accept: */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br, zstd' -H 'Referer: https://flotilla-orpin.vercel.app/' -H 'Connection: keep-alive' -H 'Cookie: _vcrcs=1.1749397785.3600.YzFmMWY5MTg5ZGJkMDllNTBjMDY5NGRmMTlkYWVmOTI=.ce36cd0f119c8cb4dead22b144e55b08' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'Priority: u=4' -H 'TE: trailers' > "${full_path_json}"
+
+
